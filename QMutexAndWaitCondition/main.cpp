@@ -1,16 +1,12 @@
 #include <QCoreApplication>
+#include <QWaitCondition>
+#include <QMutex>
+#include <QTime>
+#include <stdio.h>
+#include "Producer.h"
+#include "Consumer.h"
 
-class Producer : public QThread
-{
-public:
-    void run();
-};
-
-class Consumer : public QThread
-{
-public:
-    void run();
-};
+using namespace std;
 
 const int DataSize = 100000;
 const int BufferSize = 8192;

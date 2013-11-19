@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2013-11-17T09:43:09
+# Project created by QtCreator 2013-11-17T09:22:06
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core
 
 QT       -= gui
 
-TARGET = QtMutexAndWaitCondition
+TARGET = DanglingPointer
 CONFIG   += console
 CONFIG   -= app_bundle
 

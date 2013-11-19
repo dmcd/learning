@@ -1,0 +1,4 @@
+*.pro~
+/.project
+*.pro.user
+*.gitignore~
